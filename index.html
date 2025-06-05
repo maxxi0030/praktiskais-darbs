@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cenu kalkulators</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <p>Mājaslapas cenas kalkulators</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="form-section">
+        <label for="sadalas">Sadaļu skaits:</label>
+        <input type="number" id="sadalas" min="1" max="20" value="1"><br>
+
+        <label><input type="checkbox" value="50" class="funkcija"> Kontaktforma (+50€)</label><br>
+        <label><input type="checkbox" value="100" class="funkcija"> Galerija (+100€)</label><br>
+        <label><input type="checkbox" value="150" class="funkcija"> Interneta veikals (+150€)</label><br>
+      </div>
+
+      <div class="result-section"> 
+        <div id="rezultats"></div>
+        
+      </div>
+    </div>
+</main>
+
+  <footer>
+    <p>© Maksims Vinogradovs P2-2</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
