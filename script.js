@@ -22,13 +22,12 @@ function aprekinat() {
     `;
   }
   
-  // Автоматически запускать при изменении:
+
   document.getElementById("sadalas").addEventListener("input", aprekinat);
   document.querySelectorAll(".funkcija").forEach(chk => {
     chk.addEventListener("change", aprekinat);
   });
-  
-  // Запустить при загрузке
+
   window.addEventListener("DOMContentLoaded", aprekinat);
   
 
