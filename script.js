@@ -34,3 +34,9 @@ function aprekinat() {
 
 
   
+  window.addEventListener("DOMContentLoaded", aprekinat);
+  
+
+
+
+  
