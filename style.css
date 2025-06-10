@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e6edeb;
-  color: #333;
+  color: #000000;
 } 
 
 header{
@@ -42,8 +42,8 @@ header p {
 }
 
 .form-section label {
-  margin: 10px 0 5px;
-  font-weight: bold;
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 .form-section input[type="number"] {
@@ -52,11 +52,23 @@ header p {
   margin-bottom: 15px;
 }
 
+.result-section h3 {
+    font-weight: bold;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.result-section p {
+    font-weight: 500;
+  margin: 10px 0;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
 
 .result-section hr {
   border: none;
-  border-top: 1px solid #ccc;
-  margin: 20px 0;
+  border-top: 1.5px solid #000000;
+  margin: 15px 0;
 }
 
 #rezultats {
@@ -64,18 +76,12 @@ header p {
   font-weight: bold;
 }
 
-/* Футер */
+
 footer {
   background-color: #d6d6d6;
-  color: black;
   text-align: center;
   padding: 10px;
   margin-top: 30px;
 }
 
-
-
- 
-  
-    
   
