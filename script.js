@@ -18,6 +18,7 @@ function aprekinat() {
       - Sadaļas: ${sadaļas} × 30€ = ${bazesCena.toFixed(2)}€<br>
       - Funkcionalitātes: ${funkcijuCena.toFixed(2)}€<br>
       - PVN (21%): ${PVN.toFixed(2)}€<br>
+      <hr></hr>
       <strong>Kopējā cena: ${galaCena.toFixed(2)}€</strong>
     `;
   }
